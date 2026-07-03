@@ -30,3 +30,9 @@ Proxy: DNS only inicialmente
 ```
 
 Depois configure o mesmo domínio em `Settings > Pages > Custom domain`.
+
+## Ajuste desta versão
+
+- Banner e menu revisados para dispositivos móveis.
+- Cards flutuantes do banner agora se reorganizam no celular, sem sobrepor o conteúdo.
+- Logo do menu ajustada para não ser cortada em telas pequenas.
