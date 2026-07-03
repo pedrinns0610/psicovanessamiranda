@@ -1,6 +1,6 @@
 # Vanessa Miranda Psicóloga
 
-Landing page estática para GitHub Pages.
+Landing page estática para GitHub Pages, com seção de depoimentos representativos, FAQ, sobre mim e chamada para WhatsApp.
 
 ## Publicação no GitHub Pages
 
