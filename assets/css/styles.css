@@ -465,7 +465,10 @@ h3 {
 
 .welcome-card {
   display: flex;
-  align-items: end;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
   padding: 40px;
   color: var(--wine);
   background:
@@ -475,10 +478,41 @@ h3 {
   box-shadow: var(--shadow-soft);
 }
 
+.welcome-illustration {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.welcome-icon-wrap {
+  width: 82px;
+  height: 82px;
+  flex: 0 0 82px;
+  display: grid;
+  place-items: center;
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(182,112,134,.10), rgba(113,123,91,.16));
+  border: 1px solid rgba(124, 80, 99, .12);
+  box-shadow: 0 14px 32px rgba(91, 44, 67, .10);
+}
+
+.welcome-icon-wrap svg {
+  width: 52px;
+  height: 52px;
+}
+
+.welcome-illustration span {
+  max-width: 210px;
+  font-size: .96rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
 .welcome-card p {
   margin: 0;
   font-size: 1.08rem;
 }
+
 
 .section-heading {
   max-width: 720px;
@@ -1172,6 +1206,14 @@ h3 {
     padding: 28px;
   }
 
+  .welcome-illustration {
+    align-items: flex-start;
+  }
+
+  .welcome-illustration span {
+    max-width: none;
+  }
+
   .final-card {
     align-items: flex-start;
     flex-direction: column;
@@ -1186,6 +1228,8 @@ h3 {
 @media (max-width: 640px) {
   .container { width: min(100% - 28px, var(--container)); }
   .hero-actions { align-items: stretch; }
+  .welcome-illustration { flex-direction: column; }
+  .welcome-icon-wrap { width: 72px; height: 72px; flex-basis: 72px; }
   .btn { width: 100%; }
   .hero-notes span { flex: 1 1 calc(50% - 10px); justify-content: center; }
   .hero-portrait { min-height: 510px; }
