@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://psicologavanessamiranda.psinformatica.com.br/sitemap.xml
