@@ -9,7 +9,7 @@ if (year) {
 
 const updateHeader = () => {
   if (!header) return;
-  header.classList.toggle('is-scrolled', window.scrollY > 24);
+  header.classList.toggle('is-scrolled', window.scrollY > 20);
 };
 
 updateHeader();
@@ -41,7 +41,7 @@ if ('IntersectionObserver' in window) {
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.14 });
+  }, { threshold: 0.13 });
 
   revealItems.forEach((item) => observer.observe(item));
 } else {
