@@ -1,0 +1,7 @@
+Para verificar no Google Search Console, prefira o método DNS pelo Cloudflare.
+
+Se escolher o método "arquivo HTML", o Google vai gerar um arquivo com nome parecido com:
+google1234567890abcdef.html
+
+Baixe esse arquivo no Search Console e coloque-o na raiz do repositório, junto com o index.html.
+Não renomeie o arquivo.

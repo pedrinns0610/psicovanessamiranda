@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pedrinns0610.github.io/psicovanessamiranda/sitemap.xml
+Sitemap: https://psicologavanessamiranda.com.br/sitemap.xml
