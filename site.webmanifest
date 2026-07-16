@@ -10,17 +10,29 @@
   "theme_color": "#7c5063",
   "icons": [
     {
+<<<<<<< HEAD
       "src": "/assets/img/favicon-192x192.png",
+=======
+      "src": "https://psicologavanessamiranda.com.br/assets/img/favicon-192x192.png",
+>>>>>>> 33e2a1d (Corrige favicon para exibicao no Google)
       "sizes": "192x192",
       "type": "image/png"
     },
     {
+<<<<<<< HEAD
       "src": "/assets/img/favicon-512x512.png",
+=======
+      "src": "https://psicologavanessamiranda.com.br/assets/img/favicon-512x512.png",
+>>>>>>> 33e2a1d (Corrige favicon para exibicao no Google)
       "sizes": "512x512",
       "type": "image/png"
     },
     {
+<<<<<<< HEAD
       "src": "/assets/img/apple-touch-icon.png",
+=======
+      "src": "https://psicologavanessamiranda.com.br/assets/img/apple-touch-icon.png",
+>>>>>>> 33e2a1d (Corrige favicon para exibicao no Google)
       "sizes": "180x180",
       "type": "image/png"
     }
